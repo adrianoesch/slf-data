@@ -177,7 +177,6 @@ if __name__=='__main__':
     setGlobals()
     files = os.listdir(imgDir)
     files.remove('.DS_Store')
-    # files = [i for i in files if '0101' in i[4:8]]
     r = map(fileHandler,files)
     d = pd.DataFrame([j for i in r for j in i])
     d.to_csv(homeDir+'rawData.csv',index=False)
