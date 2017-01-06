@@ -1,6 +1,6 @@
 # Swiss Snow Report Data Analysis
 
-This repository contains the scripts and data for the analysis of the swiss snow report data ([link](adrianoesch.github.io/snow/index.html))
+This repository contains the scripts and data for the analysis of the swiss snow report data ([link](https://www.adrianoesch.github.io/snow/index.html))
 
 Step By Step Guide:
 1. Scrape -> scrape_gifs.py
